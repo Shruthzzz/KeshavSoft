@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Bootstrap 5 Site</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">BrandName</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col text-center">
+          <h2>About Us</h2>
+          <p class="text-muted">Learn more about our mission and services</p>
+        </div>
+      </div>
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <div class="ratio ratio-16x9 bg-light rounded">
+            <svg width="100%" height="100%" viewBox="0 0 400 225" xmlns="http://www.w3.org/2000/svg" aria-label="About illustration"><rect width="400" height="225" fill="#2575fc"/><text x="50%" y="50%" fill="#fff" dy=".3em" text-anchor="middle" font-size="32">Our Team</text></svg>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h4>Who We Are</h4>
+          <p>We are a passionate team dedicated to delivering high-quality web solutions using the latest technologies. Our focus is on clean design, usability, and performance.</p>
+          <ul>
+            <li>Modern web development</li>
+            <li>Responsive & mobile-first design</li>
+            <li>Client-focused approach</li>
+          </ul>
+        </div>
+      </div>
+      <!-- Services Accordion -->
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h4 class="mb-3">Our Services</h4>
+          <div class="accordion" id="servicesAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Web Design
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                  Custom, responsive, and visually appealing web designs tailored to your brand.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Development
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                  Full-stack development services using modern frameworks and best practices.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Consulting
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#servicesAccordion">
+                <div class="accordion-body">
+                  Expert advice and consulting to help you achieve your digital goals.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Team Cards -->
+      <div class="row mt-5">
+        <div class="col text-center mb-4">
+          <h4>Meet the Team</h4>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <i class="bi bi-person-circle fs-1 text-primary mb-2"></i>
+              <h5 class="card-title">Alex Smith</h5>
+              <p class="card-text">Lead Developer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <i class="bi bi-person-circle fs-1 text-primary mb-2"></i>
+              <h5 class="card-title">Jamie Lee</h5>
+              <p class="card-text">UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <i class="bi bi-person-circle fs-1 text-primary mb-2"></i>
+              <h5 class="card-title">Morgan Ray</h5>
+              <p class="card-text">Project Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 BrandName. All rights reserved. | <a href="about.html" class="text-light">About</a> | <a href="contact.html" class="text-light">Contact</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</body>
+</html>
