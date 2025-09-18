@@ -1,34 +1,57 @@
+
 # Bootstrap 5 Responsive Website
 
-A simple, clean, and responsive 3-page website built with Bootstrap 5. Ready for deployment on GitHub Pages or Netlify.
+A modern, responsive 3-page website built with Bootstrap 5. Ready for deployment on GitHub Pages or Netlify.
 
-## Pages
-- Home (`index.html`)
-- About/Services (`about.html`)
-- Contact (`contact.html`)
+## 🚀 Features
+- **Responsive Navbar** (brand + links, collapses on mobile)
+- **Hero/Carousel** on Home page
+- **Cards** for features/services/team
+- **Accordion** for services on About page
+- **Contact form** (Bootstrap styled, ready for Formspree/Netlify)
+- **Footer** on all pages
+- **Minimal custom CSS** (`css/style.css`)
+- **Google Fonts** for typography
+- **Bootstrap Icons** for UI elements
+- **Accessible** (alt text, required fields)
 
-## Features
-- Responsive Navbar & Footer
-- Hero section & Carousel
-- Cards for features/services/team
-- Accordion/Grid on About page
-- Bootstrap-styled contact form (ready for Formspree/Netlify)
-- Minimal custom CSS
-
-## Structure
+## 📁 Project Structure
 ```
 project-name/
 ├─ index.html
 ├─ about.html
 ├─ contact.html
 ├─ css/
-│ └─ style.css
+│  └─ style.css
 ├─ assets/
-│ ├─ images/
-│ └─ icons/
+│  ├─ images/
+│  └─ icons/
 └─ README.md
 ```
 
-## Deployment
-- All links are relative and work for static hosting.
-- Add your images to `assets/images/` and icons to `assets/icons/`.
+## 🌐 Pages
+- `index.html` — Home (hero, carousel, features)
+- `about.html` — About/Services (team, accordion)
+- `contact.html` — Contact (form, info cards)
+
+## 🛠️ How to Use
+1. **Clone or download** this repository.
+2. Add your images to `assets/images/` and icons to `assets/icons/` as needed.
+3. Edit content in HTML files as required.
+4. Deploy to GitHub Pages or Netlify (static hosting, no build step needed).
+
+## 📝 Customization
+- Update brand name and links in the navbar/footer.
+- Replace SVG placeholders with your own images.
+- Adjust colors and fonts in `css/style.css` if desired.
+
+## 🧩 Deployment
+- Repo link - https://github.com/Shruthzzz/KeshavSoft
+- Live page link - https://shruthzzz.github.io/KeshavSoft/
+
+## 📄 License
+This project is open source and free to use for any purpose.
+
+---
+
+**Made with ❤️ using Bootstrap 5.**
